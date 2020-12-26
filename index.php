@@ -30,19 +30,26 @@ if (isset($_POST['login'])) {
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ログイン画面</title>
 </head>
 
 <body>
     <h1>ログイン画面</h1>
+
     <form action="" method="POST">
         <?php if ($err_msg !== null && $err_msg !== "<br>") {
             echo $err_msg;
         } ?>
-        ユーザー名<input type="text" name="username" value=""><br>
-        パスワード<input type="password" name="password" value=""><br>
-        <input type="submit" name="login" value="ログイン">
+        <div class="cp_iptxt">
+            <label class="ef">
+                ユーザー名<input type="text" name="username" value=""><br>
+                パスワード<input type="password" name="password" value=""><br>
+            </label>
+            <input class="btn" type="submit" name="login" value="ログイン">
+
+        </div>
     </form>
     <a href="signin.php">新規登録</a>
 </body>

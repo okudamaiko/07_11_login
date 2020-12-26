@@ -1,0 +1,47 @@
+body{
+    background-image: url(a.jpg);
+    background-size: cover;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+/* .cp_iptxt {
+	position: relative;
+	width: 80%; */
+	/* margin: 40px 3%;
+} */
+.cp_iptxt input {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 20%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #5a5757;
+	border: 1px solid #ffffff;
+	box-shadow: 1px 1px 2px 0 #707070 inset;
+	border-radius: 4px;
+}
+
+a{
+    font-size: x-large;
+    font-weight: bold;
+    /* background-color: white; */
+    padding: 10px;
+    color:white;
+}
+
+
+.btn{
+    width: 30%;
+    margin: 10px;
+}
+
+.ef{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
